@@ -1,0 +1,153 @@
+@charset "UTF-8";
+/*Gerais*/
+body {
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 70px 0;
+}
+
+p, li {
+    color: rgb(34, 34, 34);
+    font-size: 14px;
+}
+
+/*Barra de navegação*/
+
+header, .navbar {
+    background-color: #2f63e5;
+}
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo {
+    width: 75px;
+}
+.navbar-brand {
+    padding: 0;
+    color: rgb(245, 11, 11);
+    transition: 0.3s all;
+}
+.navbar-brand:hover {
+    color: rgb(245, 11, 11);
+    transition: 0.3s all;
+}
+
+
+#navbar-links a {
+    color: rgb(245, 11, 11);
+}
+
+    
+    
+
+
+.conta-menu {
+            border: 2px transparent rgb(245, 11, 11);
+            border-radius: 7px;
+            }
+    
+#navbar-links:hover a {  
+        color: #fff;
+        transition: 0.3s all;  
+}
+
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem;
+}
+
+#conta-menu {
+    border: 2px transparent rgb(245, 11, 11);
+    border-radius: 7px;
+}
+
+#conta-menu:hover {
+    background-color: rgb(245, 11, 11);
+    color: white;
+}
+
+
+
+
+/* sobre animes*/
+
+#about-area {
+    background-color: rgb(43, 84, 207);
+
+}
+
+.main-title {
+    position: relative;
+    color:  #292929;
+    margin: 0 0 75px 0;
+    font-size: 46px;
+    text-align: center;
+    top: 30px;
+}
+
+.main-title::after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-top: 2px solid  #b84040;
+    width: 26%;
+    top: 50px;
+    left: 37.5%;
+}
+.about-title {
+    font-size: 40px;
+    color: #b84040;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+#about-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+
+
+#about-area {
+    position: relative;
+    color: #ffffff;
+    margin: 0  0 67px 9;
+    font-size: 33px;
+    align-items: center;
+
+}
+
+#enviar {
+    border: 5px;
+    border-radius: 7px;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+input {
+    margin-top: 20px;
+    height: 30px;
+    padding: 27px;
+    border-radius: 7px;
+
+}
+
